@@ -4,9 +4,36 @@ output:
   html_document:
     toc: true
     toc_float: true
-    theme: cerulean
+    theme: cosmo
 ---
 
-# This is Jeff's awesome website
+# This is John's awesome website
 
 ![](https://media.giphy.com/media/drXGoW1iudhKw/giphy.gif)
+
+
+This is an **awesome website** about data science and elmo?
+
+Sometimes I use [google](https://www.google.com/) to do data science when I'm stuck
+
+
+
+This is my dog Millie. She is a good dog.
+
+![](images/millie.jpg)
+
+*This is an html code to resize photos*
+
+<img src="images/millie.jpg" style="width:75%"> 
+
+
+
+
+*Embed links to get from one page to another*
+
+If you'd like to learn more about this website, visit [this page](about.html)
+
+
+# Let's talk more about Millie
+
+She is 5.5 years old. 
