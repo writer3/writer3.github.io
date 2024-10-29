@@ -9,7 +9,7 @@ output:
 
 # Here are some plots
 
-Today we're making interactive plots in plotly. we'll make examples using the NYC airbnb dataset.
+Making interactive plots in plotly. we'll make examples using the NYC airbnb dataset.
 
 ```{r}
 library(tidyverse)
