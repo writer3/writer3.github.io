@@ -56,7 +56,35 @@ nyc_airbnb |>
   mutate(neighbourhood = fct_reorder(neighbourhood, price)) |> 
   plot_ly(
     x = ~neighbourhood, y =~price, color = ~neighbourhood,
-    type = "box"
-  )
+    type = "box", colors = "viridis")
 ```
 
+Bar chart with number of rentals.
+
+```{r}
+nyc_airbnb |> 
+  count(neighbourhood) |> 
+  mutate(neighbourhood = fct_reorder(neighbourhood, n)) |> 
+  plot_ly(x = ~neighbourhood, y = ~n,
+          type = "bar")
+```
+
+Heatmap
+
+```{r}
+plot_ly(
+  z = volcano, type = "heatmap"
+)
+```
+
+Choropleth
+
+```{r}
+plot_ly(
+  type = "choropleth",
+  locations = c( "AZ", "CA", "VT"), locationmode = "USA-states", colorscale = "Viridis",
+  z = c(10, 20, 40)) |> 
+  layout (geo = list (scope = "usa"))
+```
+
+Other examples of [plot.ly](https://images.plot.ly/plotly-documentation/images/r_cheat_sheet.pdf).
