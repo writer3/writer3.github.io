@@ -38,7 +38,7 @@ nyc_airbnb =
 Column {data-width=650}
 -----------------------------------------------------------------------
 
-### Chart A
+### Box plot
 
 ```{r}
 nyc_airbnb |> 
@@ -51,7 +51,7 @@ nyc_airbnb |>
 Column {data-width=350}
 -----------------------------------------------------------------------
 
-### Chart B
+### Scatter plot
 
 ```{r}
 nyc_airbnb |> 
@@ -62,7 +62,7 @@ nyc_airbnb |>
   )
 ```
 
-### Chart C
+### Bar plot
 
 ```{r}
 nyc_airbnb |> 
