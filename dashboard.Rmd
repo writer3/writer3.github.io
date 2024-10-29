@@ -6,6 +6,8 @@ output:
     vertical_layout: fill
 ---
 
+Check out the [dashboard](dashboard.html)
+
 ```{r setup, include=FALSE}
 library(flexdashboard)
 
